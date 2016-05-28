@@ -26,11 +26,10 @@ dfpowerconsumptiondt <- select( dfpowerconsumptiondt, -Date, -Time)
 ##
 dfpowerconsumptiondtss <- subset(dfpowerconsumptiondt, datetime >= "2007-02-01" & datetime <= "2007-02-03")
 ##
-# Set up to plot 4 graphs, column first
+# Setup to plot 4 graphs, column first fill
 ##
 #par(mfrow = c(1,3), mar = c(4,4,2,1), oma = c(0,0,2,0))
 par(mfcol = c(2,2))
-
 ##
 # Get the rows of data in the data set
 ##
@@ -110,11 +109,9 @@ png(file= "plot4.png")
 # Plot to the png graphic device
 ##
 ##
-# Set up to plot 4 graphs, column first
+# Setup to plot 4 graphs, column first
 ##
-#par(mfrow = c(1,3), mar = c(4,4,2,1), oma = c(0,0,2,0))
 par(mfcol = c(2,2))
-
 ##
 # Get the rows of data in the data set
 ##

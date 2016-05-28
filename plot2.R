@@ -37,7 +37,7 @@ plot(i, as.numeric(dfpowerconsumptiondtss$Global_active_power),
      type="n", xaxt = "n")
 ##
 # Compute the location of tick mark labels by day starts at midnight
-# 
+##
 tickmarklocation <- grep("00:00:00",dfpowerconsumptiondtss$datetime)
 ##
 # On the x-axis, set the location of the tickmarks; Get 3 character label for tick mark that is day of week

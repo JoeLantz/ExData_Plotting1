@@ -26,13 +26,9 @@ dfpowerconsumptiondt <- select( dfpowerconsumptiondt, -Date, -Time)
 ##
 dfpowerconsumptiondtss <- subset(dfpowerconsumptiondt, datetime >= "2007-02-01" & datetime <= "2007-02-03")
 ##
-# Plot the histogram to screen
-##
-hist(as.numeric(dfpowerconsumptiondtss$Global_active_power), main ="Global Active Power", col="red", xlab = "Global Active Power (kilowatts)")
-##
 # Open the graphic device png
 ##
-png(file= "plot1.png")
+png(file= "plot1.png", width = 480, height = 480)
 ##
 # Plot to the png graphic device
 ##

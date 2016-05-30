@@ -77,7 +77,7 @@ plot(powerconsumptiondtss$datetime,
      ylab = "Voltage",
      xlab = "datetime",
      col = "black",
-     type="l", xaxt = "n")
+     type="l")
 ##
 #######################################################################
 # Plot "Global_reactive_power" vs "Time" 
@@ -88,7 +88,7 @@ plot(powerconsumptiondtss$datetime,
      ylab = "Global_reactive_power",
      xlab = "datetime",
      col = "black",
-     type="l", xaxt = "n")
+     type="l")
 ##
 ##
 # Get the current device
